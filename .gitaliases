@@ -21,7 +21,7 @@
   # reset previous commit, but keep the changes
   undo = reset HEAD~1 --mixed
   # modify previous commit
-  amend = commit -a --amend
+  amend = !git add -A && git commit --amend -m
 
 
   # checkout an existing branch 
