@@ -1,10 +1,11 @@
-import mongoose from 'mongoose';
+//import mongoose from 'mongoose';
+import { db } from '../server.js';
 
-const shortcutSchema = mongoose.Schema({
+const shortcutSchema = db.Schema({
   question: String,
   answer: String
 });
 
-const Shortcut = mongoose.model('Shortcut', shortcutSchema);
+const Shortcut = db.model('Shortcut', shortcutSchema);
 
 export default Shortcut;
