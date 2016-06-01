@@ -1,0 +1,35 @@
+{ "data": [
+    {
+      "question": "Undo Action", 
+      "answer": "Cmd + Z"
+    },
+    {
+      "question": "Redo Action", 
+      "answer": "Cmd + Shift + Z"
+    },
+    {
+      "question": "Copy Current Line/Selection", 
+      "answer": "Cmd + C"
+    },
+    {
+      "question": "Cut Current Line/Selection", 
+      "answer": "Cmd + X"
+    },
+    {
+      "question": "Paste", 
+      "answer": "Cmd + V"
+    },
+    {
+      "question": "Paste and Smart Indent", 
+      "answer": "Cmd + Shift + V"
+    },
+    {
+      "question": "Indent Current Line/Selection", 
+      "answer": "Cmd + ]"
+    },
+    {
+      "question": "Unindent Current Line/Selection", 
+      "answer": "Cmd + ["
+    }
+  ]
+}

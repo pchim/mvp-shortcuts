@@ -9,6 +9,8 @@
     "**/.*",
     "node_modules",
     "bower_components",
+    "src/client/lib",
+    "dev",
     "test",
     "tests"
   ]

@@ -25,7 +25,9 @@ build/Release
 
 # Dependency directory
 node_modules
-client/lib
+bower_components
+src/client/lib
+dev
 
 # Optional npm cache directory
 .npm
