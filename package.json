@@ -11,7 +11,8 @@
     "start": "npm install; bower install; ",
     "build": "babel --watch src/ --out-dir dev/",
     "seed": "babel ./seed.js | node",
-    "serve": "nodemon dev/server/server.js",
+    "serve": "open http://localhost:1337; nodemon dev/server/server.js",
+    "serveup": "npm run seed; npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
